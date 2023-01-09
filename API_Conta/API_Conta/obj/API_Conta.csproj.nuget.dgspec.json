@@ -1,0 +1,645 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\API_Conta\\API_Conta.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Adaptador\\Adaptador.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Adaptador\\Adaptador.csproj",
+        "projectName": "Adaptador",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Adaptador\\Adaptador.csproj",
+        "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Adaptador\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\API_Conta\\API_Conta.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\API_Conta\\API_Conta.csproj",
+        "projectName": "API_Conta",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\API_Conta\\API_Conta.csproj",
+        "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\API_Conta\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj"
+              },
+              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Aplicacao\\Aplicacao.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Aplicacao\\Aplicacao.csproj"
+              },
+              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Data\\Data.csproj"
+              },
+              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\IoC\\IoC.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\IoC\\IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj",
+        "projectName": "AplicacaoDto",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj",
+        "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Aplicacao\\Aplicacao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Aplicacao\\Aplicacao.csproj",
+        "projectName": "Aplicacao",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Aplicacao\\Aplicacao.csproj",
+        "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Aplicacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Adaptador\\Adaptador.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Adaptador\\Adaptador.csproj"
+              },
+              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj"
+              },
+              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\Dominio.csproj",
+        "projectName": "Dominio",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\IoC\\IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\IoC\\IoC.csproj",
+        "projectName": "IoC",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\IoC\\IoC.csproj",
+        "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Aplicacao\\Aplicacao.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Aplicacao\\Aplicacao.csproj"
+              },
+              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Repositorio\\Repositorio.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Repositorio\\Repositorio.csproj"
+              },
+              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Servico\\Servico.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Servico\\Servico.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Repositorio\\Repositorio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Repositorio\\Repositorio.csproj",
+        "projectName": "Repositorio",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Repositorio\\Repositorio.csproj",
+        "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Repositorio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj"
+              },
+              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Data\\Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Servico\\Servico.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Servico\\Servico.csproj",
+        "projectName": "Servico",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Servico\\Servico.csproj",
+        "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Servico\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
