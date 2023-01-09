@@ -88,11 +88,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Aplicacao\\Aplicacao.csproj",
+      "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Aplicacao\\Aplicacao.csproj",
       "projectName": "Aplicacao",
-      "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Aplicacao\\Aplicacao.csproj",
+      "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Aplicacao\\Aplicacao.csproj",
       "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Aplicacao\\obj\\",
+      "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Aplicacao\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -109,14 +109,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Adaptador\\Adaptador.csproj": {
-              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Adaptador\\Adaptador.csproj"
+            "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Adaptador\\Adaptador.csproj": {
+              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Adaptador\\Adaptador.csproj"
             },
-            "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj": {
-              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj"
+            "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj": {
+              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj"
             },
-            "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj"
+            "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Core\\Core.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\API_Conta\\API_Conta.csproj": {}
+    "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\API_Conta\\API_Conta.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Adaptador\\Adaptador.csproj": {
+    "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Adaptador\\Adaptador.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Adaptador\\Adaptador.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Adaptador\\Adaptador.csproj",
         "projectName": "Adaptador",
-        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Adaptador\\Adaptador.csproj",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Adaptador\\Adaptador.csproj",
         "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Adaptador\\obj\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Adaptador\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj": {
-                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj"
+              "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\API_Conta\\API_Conta.csproj": {
+    "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\API_Conta\\API_Conta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\API_Conta\\API_Conta.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\API_Conta\\API_Conta.csproj",
         "projectName": "API_Conta",
-        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\API_Conta\\API_Conta.csproj",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\API_Conta\\API_Conta.csproj",
         "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\API_Conta\\obj\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\API_Conta\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,17 +86,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj": {
-                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj"
+              "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj"
               },
-              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Aplicacao\\Aplicacao.csproj": {
-                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Aplicacao\\Aplicacao.csproj"
+              "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Aplicacao\\Aplicacao.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Aplicacao\\Aplicacao.csproj"
               },
-              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Data\\Data.csproj"
+              "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Data\\Data.csproj"
               },
-              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\IoC\\IoC.csproj": {
-                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\IoC\\IoC.csproj"
+              "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\IoC\\IoC.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\IoC\\IoC.csproj"
               }
             }
           }
@@ -150,14 +150,14 @@
         }
       }
     },
-    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj": {
+    "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj",
         "projectName": "AplicacaoDto",
-        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj",
         "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\obj\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\AplicacaoDto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -174,8 +174,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\Dominio.csproj"
+              "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -208,14 +208,14 @@
         }
       }
     },
-    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Aplicacao\\Aplicacao.csproj": {
+    "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Aplicacao\\Aplicacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Aplicacao\\Aplicacao.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Aplicacao\\Aplicacao.csproj",
         "projectName": "Aplicacao",
-        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Aplicacao\\Aplicacao.csproj",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Aplicacao\\Aplicacao.csproj",
         "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Aplicacao\\obj\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Aplicacao\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -232,14 +232,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Adaptador\\Adaptador.csproj": {
-                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Adaptador\\Adaptador.csproj"
+              "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Adaptador\\Adaptador.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Adaptador\\Adaptador.csproj"
               },
-              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj": {
-                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj"
+              "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj"
               },
-              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj"
+              "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Core\\Core.csproj"
               }
             }
           }
@@ -272,14 +272,14 @@
         }
       }
     },
-    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj": {
+    "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\obj\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -296,8 +296,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\Dominio.csproj"
+              "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -330,14 +330,14 @@
         }
       }
     },
-    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Data\\Data.csproj": {
+    "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Data\\obj\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -354,8 +354,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\Dominio.csproj"
+              "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -398,14 +398,14 @@
         }
       }
     },
-    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\obj\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -452,14 +452,14 @@
         }
       }
     },
-    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\IoC\\IoC.csproj": {
+    "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\IoC\\IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\IoC\\IoC.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\IoC\\IoC.csproj",
         "projectName": "IoC",
-        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\IoC\\IoC.csproj",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\IoC\\IoC.csproj",
         "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\IoC\\obj\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\IoC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -476,14 +476,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Aplicacao\\Aplicacao.csproj": {
-                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Aplicacao\\Aplicacao.csproj"
+              "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Aplicacao\\Aplicacao.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Aplicacao\\Aplicacao.csproj"
               },
-              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Repositorio\\Repositorio.csproj": {
-                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Repositorio\\Repositorio.csproj"
+              "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Repositorio\\Repositorio.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Repositorio\\Repositorio.csproj"
               },
-              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Servico\\Servico.csproj": {
-                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Servico\\Servico.csproj"
+              "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Servico\\Servico.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Servico\\Servico.csproj"
               }
             }
           }
@@ -522,14 +522,14 @@
         }
       }
     },
-    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Repositorio\\Repositorio.csproj": {
+    "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Repositorio\\Repositorio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Repositorio\\Repositorio.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Repositorio\\Repositorio.csproj",
         "projectName": "Repositorio",
-        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Repositorio\\Repositorio.csproj",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Repositorio\\Repositorio.csproj",
         "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Repositorio\\obj\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Repositorio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -546,11 +546,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj"
+              "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Core\\Core.csproj"
               },
-              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Data\\Data.csproj"
+              "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Data\\Data.csproj"
               }
             }
           }
@@ -583,14 +583,14 @@
         }
       }
     },
-    "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Servico\\Servico.csproj": {
+    "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Servico\\Servico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Servico\\Servico.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Servico\\Servico.csproj",
         "projectName": "Servico",
-        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Servico\\Servico.csproj",
+        "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Servico\\Servico.csproj",
         "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Servico\\obj\\",
+        "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Servico\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -607,8 +607,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Core\\Core.csproj"
+              "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Core\\Core.csproj"
               }
             }
           }

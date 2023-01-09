@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+wCO26CrpBZuLJ5ReZ+nFz520kY58lQ+2TDQub0P9tdCG+aTMMQpz69pmYXCAD5pp8OCFPUQk3vDp0fWxJ+afg==",
+  "dgSpecHash": "N7SnfSVZcPnOqy/9JpJXOO7lfzR4cgycZv9JXVg0kjclAp7EH3N9jdIGZXlAsKQww+njFrip3alckqasPCMDeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas.dias\\Desktop\\API_Conta\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
