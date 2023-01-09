@@ -22,7 +22,7 @@ namespace Dominio.Entidade
         /// Número da conta 
         /// </summary>
         /// <exemplo>20356</exemplo>
-        public int num_conta { get; set; }
+        public long num_conta { get; set; }
         /// <summary>
         /// Nome do titular da conta
         /// </summary>
@@ -47,7 +47,7 @@ namespace Dominio.Entidade
         /// Data da criação da conta 
         /// </summary>
         /// <exemplo>2023-01-01</exemplo>
-        public string? data_criacao { get; set; }
+        public DateTime? data_criacao { get; set; }
         /// <summary>
         /// Número do cpf ou cnpj caso seja pessoa física ou jurídica
         /// </summary>

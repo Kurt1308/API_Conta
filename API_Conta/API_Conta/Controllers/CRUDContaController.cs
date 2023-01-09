@@ -1,5 +1,6 @@
 ﻿using Aplicacao.Interface;
 using AplicacaoDto.RequisicoesDto.contaDto;
+using AplicacaoDto.RespostaDto.contaDto;
 using AplicacaoDto.RespostaDto.InsertContaDto;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
@@ -39,6 +40,25 @@ namespace API_Conta.Controllers
             var retorno = _aplicacaoConta.Insert(requisicaoInsertContaDto);
             HttpContext.Response.StatusCode = (int)retorno.codRetorno;
             return retorno;
+        }
+        /// <summary>
+        /// Endpoint que retorna todas as contas cadastradas
+        /// </summary>
+        /// <response code="200">Busca realizada com sucesso</response>
+        /// <response code="400">Campos obrigatórios não informados</response>
+        /// <response code="401">Acesso não autenticado</response>
+        /// <response code="403">Acesso não autorizado</response>
+        /// <response code="404">Consulta não retornou dados</response>
+        /// <response code="500">Erro interno na aplicação, vide campo mensagem</response>
+        [ProducesResponseType(typeof(RespostaGetContaDto), 200)]
+        [ProducesResponseType(typeof(RespostaGetContaDto), 404)]
+        [ProducesResponseType(typeof(RespostaGetContaDto), 500)]
+        [AllowAnonymous]
+        [HttpGet]
+        [Route("agenda")]
+        public RespostaGetContaDto GetAllContas()
+        {
+            return _aplicacaoConta.GetAllContas();
         }
     }
 }

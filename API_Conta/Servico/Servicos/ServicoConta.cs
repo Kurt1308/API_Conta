@@ -2,6 +2,7 @@
 using Core.Interface.Servico;
 using Core.Interface.Servicos;
 using Dominio.Entidade;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Servico.Servicos
@@ -38,6 +39,11 @@ namespace Servico.Servicos
         public conta insereConta(int num_conta, string nome_titular, string tipo_conta, int situacao, string identificador, int? agencia_id_agencia)
         {
             return _repositorioConta.insereConta(num_conta,  nome_titular,  tipo_conta,  situacao,  identificador, agencia_id_agencia);
+        }
+
+        public IQueryable<conta> buscaContas()
+        {
+            return _repositorioConta.buscaContas();
         }
     }
 }

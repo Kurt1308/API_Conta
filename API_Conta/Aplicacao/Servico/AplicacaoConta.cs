@@ -1,6 +1,7 @@
 ﻿using Adaptador.Interfaces;
 using Aplicacao.Interface;
 using AplicacaoDto.RequisicoesDto.contaDto;
+using AplicacaoDto.RespostaDto.contaDto;
 using AplicacaoDto.RespostaDto.InsertContaDto;
 using Core.Interface.Servico;
 using Dominio.Entidade;
@@ -16,12 +17,26 @@ namespace Aplicacao.Servico
     public class AplicacaoConta : IAplicacaoConta
     {
         private const string erroInserir = "NÃO FOI POSSÍVEL CRIAR ESSA CONTA";
+        private const string semDados = "NÃO POSSUI DADOS";
         private readonly IServicoConta _servicoConta;
         private readonly IMapperConta _mapperConta;
         public AplicacaoConta(IServicoConta servicoConta, IMapperConta mapperConta)
         {
             _servicoConta = servicoConta;
             _mapperConta = mapperConta;
+        }
+
+        public RespostaGetContaDto GetAllContas()
+        {
+            try
+            {
+                List<conta> retorno = _servicoConta.buscaContas().ToList();
+                return _mapperConta.MapperToDtoConta(retorno.Count > 0 ? HttpStatusCode.OK : HttpStatusCode.NotFound, retorno.Count > 0 ? "" : semDados, retorno);
+            }
+            catch (Exception erro)
+            {
+                return _mapperConta.MapperToDtoConta(HttpStatusCode.InternalServerError, erro.Message);
+            }
         }
 
         public RespostaInsertContaDto Insert(RequisicaoInsertContaDto obj)

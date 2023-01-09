@@ -18,6 +18,12 @@ namespace Repositorio.RepositorioConta
         {
             _context = Context;
         }
+
+        public IQueryable<conta> buscaContas()
+        {
+            return _context.conta.AsQueryable();
+        }
+
         public conta insereConta(int num_conta, string nome_titular, string tipo_conta, int situacao, string identificador, int? agencia_id_agencia)
         {
             var result = _context.conta.SingleOrDefault(x => x.num_conta == num_conta);
@@ -30,12 +36,11 @@ namespace Repositorio.RepositorioConta
                     nome_titular = nome_titular,
                     tipo_conta = tipo_conta,
                     situacao = situacao,
-                    data_criacao = "",
                     identificador = identificador,
                     agencia_id_agencia = agencia_id_agencia
                 };
                 var data = DateTime.UtcNow;
-                conta.data_criacao = data.ToString();
+                conta.data_criacao = data;
                 _context.conta.Add(conta);
                 _context.SaveChanges();
 
