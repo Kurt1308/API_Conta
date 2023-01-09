@@ -24,6 +24,11 @@ namespace Repositorio.RepositorioConta
             return _context.conta.AsQueryable();
         }
 
+        public conta GetContaById(long id)
+        {
+            return _context.conta.Where(x => x.id_conta == id).FirstOrDefault();
+        }
+
         public conta insereConta(int num_conta, string nome_titular, string tipo_conta, int situacao, string identificador, int? agencia_id_agencia)
         {
             var result = _context.conta.SingleOrDefault(x => x.num_conta == num_conta);

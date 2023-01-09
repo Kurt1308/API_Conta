@@ -45,5 +45,10 @@ namespace Servico.Servicos
         {
             return _repositorioConta.buscaContas();
         }
+
+        public conta GetContaById(long id)
+        {
+            return _repositorioConta.GetContaById(id);
+        }
     }
 }

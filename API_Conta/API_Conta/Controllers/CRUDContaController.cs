@@ -22,7 +22,7 @@ namespace API_Conta.Controllers
         /// <summary>
         /// Endpoint para cadastrar conta 
         /// </summary>
-        /// <param name="requisicaoInsertContaDto"></param>
+        /// <param name="dto"></param>
         /// <response code="201">Cadastro realizado com sucesso</response>
         /// <response code="400">Campos obrigatórios não informados</response>
         /// <response code="401">Acesso não autenticado</response>
@@ -34,10 +34,10 @@ namespace API_Conta.Controllers
         [ProducesResponseType(typeof(RespostaInsertContaDto), 500)]
         [AllowAnonymous]
         [HttpPost]
-        [Route("Insert")]
-        public RespostaInsertContaDto Insert([FromBody] RequisicaoInsertContaDto requisicaoInsertContaDto)
+        [Route("InserirConta")]
+        public RespostaInsertContaDto Insert([FromBody] RequisicaoInsertContaDto dto)
         {
-            var retorno = _aplicacaoConta.Insert(requisicaoInsertContaDto);
+            var retorno = _aplicacaoConta.Insert(dto);
             HttpContext.Response.StatusCode = (int)retorno.codRetorno;
             return retorno;
         }
@@ -55,10 +55,32 @@ namespace API_Conta.Controllers
         [ProducesResponseType(typeof(RespostaGetContaDto), 500)]
         [AllowAnonymous]
         [HttpGet]
-        [Route("agenda")]
+        [Route("GetTodasAsContas")]
         public RespostaGetContaDto GetAllContas()
         {
             return _aplicacaoConta.GetAllContas();
+        }
+        /// <summary>
+        /// Endpoint para consultar uma determinada Conta
+        /// </summary>
+        /// <param name="dto"></param>
+        /// <returns>Retorna XXX</returns>
+        /// <response code="200">Esta requisição foi bem sucedida</response>
+        /// <response code="400">O servidor não entendeu a requisição pois está com uma sintaxe inválida</response>
+        /// <response code="422">Erro de validação de conteúdo, código não localizado</response>
+        /// <response code="500">Erro interno na aplicação, vide campo mensagem</response>
+        [ProducesResponseType(typeof(RespostaGetByIdContaDto), 200)]
+        [ProducesResponseType(typeof(RespostaGetByIdContaDto), 400)]
+        [ProducesResponseType(typeof(RespostaGetByIdContaDto), 422)]
+        [ProducesResponseType(typeof(RespostaGetByIdContaDto), 500)]
+        [AllowAnonymous]
+        [HttpPost]
+        [Route("GetContaPorId")]
+        public RespostaGetByIdContaDto GetContaById([FromBody] RequisicaoGetByIdContaDto dto)
+        {
+            var retorno = _aplicacaoConta.GetContaById(dto);
+            HttpContext.Response.StatusCode = (int)retorno.codRetorno;
+            return retorno;
         }
     }
 }

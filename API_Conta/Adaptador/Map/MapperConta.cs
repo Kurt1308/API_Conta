@@ -23,6 +23,16 @@ namespace Adaptador.Map
             };
         }
 
+        public RespostaGetByIdContaDto MapperToDtoGetConta(HttpStatusCode codRetorno, string mensagem, conta item)
+        {
+            return new RespostaGetByIdContaDto
+            {
+                codRetorno = codRetorno,
+                Mensagem = mensagem,
+                conta = item
+            };
+        }
+
         public RespostaInsertContaDto MapperToDtoInsert(HttpStatusCode codRetorno, string mensagem, conta conta = null)
         {
             return new RespostaInsertContaDto()

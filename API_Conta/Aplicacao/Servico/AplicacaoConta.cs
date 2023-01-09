@@ -39,6 +39,27 @@ namespace Aplicacao.Servico
             }
         }
 
+        public RespostaGetByIdContaDto GetContaById(RequisicaoGetByIdContaDto dto)
+        {
+            string msgErroValidacao = "";
+            if (!msgErroValidacao.Equals(string.Empty))
+                return _mapperConta.MapperToDtoGetConta(HttpStatusCode.UnprocessableEntity, msgErroValidacao, null);
+
+            try
+            {
+                var cadastroConta = _servicoConta.GetContaById(dto.idConta);
+
+                if (cadastroConta == null)
+                    return _mapperConta.MapperToDtoGetConta(HttpStatusCode.NotFound, "Consulta não retornou dados, verifique os parâmetros enviados", null);
+                else
+                    return _mapperConta.MapperToDtoGetConta(HttpStatusCode.OK, "", cadastroConta);
+            }
+            catch (Exception Erro)
+            {
+                return _mapperConta.MapperToDtoGetConta(HttpStatusCode.InternalServerError, Erro.ToString(), null);
+            }
+        }
+
         public RespostaInsertContaDto Insert(RequisicaoInsertContaDto obj)
         {
             string mensagem = "";

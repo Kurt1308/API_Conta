@@ -8,5 +8,6 @@ namespace Aplicacao.Interface
     {
         RespostaInsertContaDto Insert(RequisicaoInsertContaDto requisicaoInsertContaDto);
         RespostaGetContaDto GetAllContas();
+        RespostaGetByIdContaDto GetContaById(RequisicaoGetByIdContaDto dto);
     }
 }
