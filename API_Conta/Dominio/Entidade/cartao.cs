@@ -15,17 +15,12 @@ namespace Dominio.Entidade
         /// Id do cartao
         /// </summary>
         /// <exemplo>10</exemplo>
-        public long? id_cartao { get; set; }
+        public int? id_cartao { get; set; }
         /// <summary>
         /// Número do cartao 
         /// </summary>
         /// <exemplo>20356</exemplo>
         public long num_cartao { get; set; }
-        /// <summary>
-        /// Nome do titular da conta
-        /// </summary>
-        /// <exemplo>Lucas Dias</exemplo>
-        public string nome_titular { get; set; }
         /// <summary>
         /// Mês e ano de vencimento do cartão no formato AAAAMM
         /// </summary>
