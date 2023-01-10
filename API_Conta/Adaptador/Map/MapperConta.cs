@@ -42,5 +42,15 @@ namespace Adaptador.Map
                 conta = conta
             };
         }
+
+        public RespostaPutContaDto MapperToDtoPut(HttpStatusCode codRetorno, string mensagem, conta conta = null)
+        {
+            return new RespostaPutContaDto()
+            {
+                codRetorno = codRetorno,
+                Mensagem = mensagem,
+                conta = conta
+            };
+        }
     }
 }

@@ -50,5 +50,10 @@ namespace Servico.Servicos
         {
             return _repositorioConta.GetContaById(id);
         }
+
+        public conta atualizarConta(long id, string tipo_conta, int situacao)
+        {
+            return _repositorioConta.atualizarConta(id, tipo_conta, situacao);
+        }
     }
 }

@@ -19,6 +19,21 @@ namespace Repositorio.RepositorioConta
             _context = Context;
         }
 
+        public conta atualizarConta(long id, string tipo_conta, int? situacao)
+        {
+            var result = _context.conta.SingleOrDefault(x => x.id_conta == id);
+            if (result != null)
+            {
+                result.tipo_conta = tipo_conta;
+                result.situacao = situacao;
+
+                _context.SaveChanges();
+                return result;
+            }
+
+            return null;
+        }
+
         public IQueryable<conta> buscaContas()
         {
             return _context.conta.AsQueryable();

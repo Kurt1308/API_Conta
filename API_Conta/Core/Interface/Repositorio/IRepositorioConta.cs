@@ -12,5 +12,6 @@ namespace Core.Interface.Repositorio
         conta insereConta(int num_conta, string nome_titular, string tipo_conta, int situacao, string identificador, int? agencia_id_agencia);
         IQueryable<conta> buscaContas();
         conta GetContaById(long id);
+        conta atualizarConta(long id, string tipo_conta, int? situacao);
     }
 }

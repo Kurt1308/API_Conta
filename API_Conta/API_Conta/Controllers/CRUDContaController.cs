@@ -82,5 +82,26 @@ namespace API_Conta.Controllers
             HttpContext.Response.StatusCode = (int)retorno.codRetorno;
             return retorno;
         }
+        /// <summary>
+        /// Endpoint para atualizar conta 
+        /// </summary>
+        /// <param name="dto"></param>
+        /// <response code="200">Busca realizada com sucesso</response>
+        /// <response code="400">Campos obrigatórios não informados</response>
+        /// <response code="401">Acesso não autenticado</response>
+        /// <response code="403">Acesso não autorizado</response>
+        /// <response code="422">Erro de válidação de conteúdo, vide campo mensagem</response>
+        /// <response code="500">Erro interno na aplicação, vide campo mensagem</response>
+        [ProducesResponseType(typeof(RespostaPutContaDto), 200)]
+        [ProducesResponseType(typeof(RespostaPutContaDto), 422)]
+        [ProducesResponseType(typeof(RespostaPutContaDto), 500)]
+        [AllowAnonymous]
+        [HttpPut]
+        public RespostaPutContaDto Put([FromBody] RequisicaoPutContaDto dto)
+        {
+            var retorno = _aplicacaoConta.AtualizarConta(dto);
+            HttpContext.Response.StatusCode = (int)retorno.codRetorno;
+            return retorno;
+        }
     }
 }

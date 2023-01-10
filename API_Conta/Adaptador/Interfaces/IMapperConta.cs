@@ -11,5 +11,6 @@ namespace Adaptador.Interfaces
         RespostaInsertContaDto MapperToDtoInsert(HttpStatusCode codRetorno, string mensagem, conta conta = null);
         RespostaGetContaDto MapperToDtoConta(HttpStatusCode codRetorno, string mensagem, List<conta> conta = null);
         RespostaGetByIdContaDto MapperToDtoGetConta(HttpStatusCode codRetorno, string mensagem, conta item);
+        RespostaPutContaDto MapperToDtoPut(HttpStatusCode codRetorno, string mensagem, conta conta = null);
     }
 }

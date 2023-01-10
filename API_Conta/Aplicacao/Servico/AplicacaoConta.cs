@@ -18,12 +18,30 @@ namespace Aplicacao.Servico
     {
         private const string erroInserir = "NÃO FOI POSSÍVEL CRIAR ESSA CONTA";
         private const string semDados = "NÃO POSSUI DADOS";
+        private const string erroAtualizar = "NÃO FOI POSSÍVEL ATUALIZAR ESSA CONTA";
         private readonly IServicoConta _servicoConta;
         private readonly IMapperConta _mapperConta;
         public AplicacaoConta(IServicoConta servicoConta, IMapperConta mapperConta)
         {
             _servicoConta = servicoConta;
             _mapperConta = mapperConta;
+        }
+
+        public RespostaPutContaDto AtualizarConta(RequisicaoPutContaDto obj)
+        {
+            string mensagem = "";
+            if (!mensagem.Equals(string.Empty))
+                return _mapperConta.MapperToDtoPut(HttpStatusCode.UnprocessableEntity, mensagem);
+            try
+            {
+                conta retornoConta = _servicoConta.atualizarConta(obj.idConta, obj.tipo_conta, obj.situacao);
+
+                return _mapperConta.MapperToDtoPut(retornoConta != null ? HttpStatusCode.OK : HttpStatusCode.InternalServerError, retornoConta != null ? mensagem : erroAtualizar, retornoConta);
+            }
+            catch (Exception erro)
+            {
+                return _mapperConta.MapperToDtoPut(HttpStatusCode.InternalServerError, erro.Message);
+            }
         }
 
         public RespostaGetContaDto GetAllContas()
