@@ -12,5 +12,6 @@ namespace Core.Interface.Repositorio
         cartao insereCartao(long num_cartao, int cvc, int? agencia_id_agencia, int? conta_id_conta);
         IQueryable<cartao> buscaCartoes();
         cartao GetCartaoById(int id);
+        cartao atualizarCartao(int id_cartao, int conta_id_conta, int agencia_id_agencia, decimal? limite_saldo, int? situacao);
     }
 }

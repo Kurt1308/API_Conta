@@ -10,6 +10,7 @@ namespace Aplicacao.Interface
 {
     public interface IAplicacaoCartao
     {
+        RespostaPutCartaoDto AtualizarCartao(RequisicaoPutCartaoDto dto);
         RespostaInsertCartaoDto Insert(RequisicaoInsertCartaoDto requisicaoInsertCartaoDto);
         RespostaGetCartaoDto GetAllCartoes();
         RespostaGetByIdCartaoDto GetCartaoById(RequisicaoGetByIdCartaoDto dto);

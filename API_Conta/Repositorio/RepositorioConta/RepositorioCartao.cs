@@ -18,6 +18,24 @@ namespace Repositorio.RepositorioConta
         {
             _context = Context;
         }
+
+        public cartao atualizarCartao(int id_cartao, int conta_id_conta, int agencia_id_agencia, decimal? limite_saldo, int? situacao)
+        {
+            var result = _context.cartao.SingleOrDefault(x => x.id_cartao == id_cartao);
+            if (result != null)
+            {
+                result.id_cartao = id_cartao;
+                result.conta_id_conta = conta_id_conta;
+                result.agencia_id_agencia = agencia_id_agencia;
+                result.limite_saldo = limite_saldo;
+                result.situacao = situacao;
+                _context.SaveChanges();
+                return result;
+            }
+
+            return null;
+        }
+
         public IQueryable<cartao> buscaCartoes()
         {
             return _context.cartao.AsQueryable();

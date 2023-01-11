@@ -17,6 +17,12 @@ namespace Servico.Servicos
         {
             _repositorioCartao = repositorioCartao;
         }
+
+        public cartao atualizarCartao(int id_cartao, int conta_id_conta, int agencia_id_agencia, decimal? limite_saldo, int? situacao)
+        {
+            return _repositorioCartao.atualizarCartao(id_cartao, conta_id_conta, agencia_id_agencia, limite_saldo, situacao);
+        }
+
         public IQueryable<cartao> buscaCartoes()
         {
             return _repositorioCartao.buscaCartoes();
