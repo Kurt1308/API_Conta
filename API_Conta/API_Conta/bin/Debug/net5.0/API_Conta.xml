@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API_Conta</name>
+    </assembly>
+    <members>
+        <member name="M:API_Conta.Controllers.CRUDCartaoController.Put(AplicacaoDto.RequisicoesDto.DtoCartao.RequisicaoPutCartaoDto)">
+            <summary>
+            Endpoint para atualizar cartão 
+            </summary>
+            <param name="dto"></param>
+            <response code="200">Busca realizada com sucesso</response>
+            <response code="400">Campos obrigatórios não informados</response>
+            <response code="401">Acesso não autenticado</response>
+            <response code="403">Acesso não autorizado</response>
+            <response code="422">Erro de válidação de conteúdo, vide campo mensagem</response>
+            <response code="500">Erro interno na aplicação, vide campo mensagem</response>
+        </member>
+        <member name="M:API_Conta.Controllers.CRUDCartaoController.Insert(AplicacaoDto.RequisicoesDto.DtoCartao.RequisicaoInsertCartaoDto)">
+            <summary>
+            Endpoint para cadastrar cartão 
+            </summary>
+            <param name="dto"></param>
+            <response code="201">Cadastro realizado com sucesso</response>
+            <response code="400">Campos obrigatórios não informados</response>
+            <response code="401">Acesso não autenticado</response>
+            <response code="403">Acesso não autorizado</response>
+            <response code="422">Erro de válidação de conteúdo, vide campo mensagem</response>
+            <response code="500">Erro interno na aplicação, vide campo mensagem</response>
+        </member>
+        <member name="M:API_Conta.Controllers.CRUDCartaoController.GetAllContas">
+            <summary>
+            Endpoint que retorna todos os cartões cadastrados
+            </summary>
+            <response code="200">Busca realizada com sucesso</response>
+            <response code="400">Campos obrigatórios não informados</response>
+            <response code="401">Acesso não autenticado</response>
+            <response code="403">Acesso não autorizado</response>
+            <response code="404">Consulta não retornou dados</response>
+            <response code="500">Erro interno na aplicação, vide campo mensagem</response>
+        </member>
+        <member name="M:API_Conta.Controllers.CRUDCartaoController.GetCartaoById(AplicacaoDto.RequisicoesDto.DtoCartao.RequisicaoGetByIdCartaoDto)">
+            <summary>
+            Endpoint para consultar um determinado Cartão
+            </summary>
+            <param name="dto"></param>
+            <returns>Retorna XXX</returns>
+            <response code="200">Esta requisição foi bem sucedida</response>
+            <response code="400">O servidor não entendeu a requisição pois está com uma sintaxe inválida</response>
+            <response code="422">Erro de validação de conteúdo, código não localizado</response>
+            <response code="500">Erro interno na aplicação, vide campo mensagem</response>
+        </member>
+        <member name="M:API_Conta.Controllers.CRUDContaController.Insert(AplicacaoDto.RequisicoesDto.contaDto.RequisicaoInsertContaDto)">
+            <summary>
+            Endpoint para cadastrar conta 
+            </summary>
+            <param name="dto"></param>
+            <response code="201">Cadastro realizado com sucesso</response>
+            <response code="400">Campos obrigatórios não informados</response>
+            <response code="401">Acesso não autenticado</response>
+            <response code="403">Acesso não autorizado</response>
+            <response code="422">Erro de válidação de conteúdo, vide campo mensagem</response>
+            <response code="500">Erro interno na aplicação, vide campo mensagem</response>
+        </member>
+        <member name="M:API_Conta.Controllers.CRUDContaController.GetAllContas">
+            <summary>
+            Endpoint que retorna todas as contas cadastradas
+            </summary>
+            <response code="200">Busca realizada com sucesso</response>
+            <response code="400">Campos obrigatórios não informados</response>
+            <response code="401">Acesso não autenticado</response>
+            <response code="403">Acesso não autorizado</response>
+            <response code="404">Consulta não retornou dados</response>
+            <response code="500">Erro interno na aplicação, vide campo mensagem</response>
+        </member>
+        <member name="M:API_Conta.Controllers.CRUDContaController.GetContaById(AplicacaoDto.RequisicoesDto.contaDto.RequisicaoGetByIdContaDto)">
+            <summary>
+            Endpoint para consultar uma determinada Conta
+            </summary>
+            <param name="dto"></param>
+            <returns>Retorna XXX</returns>
+            <response code="200">Esta requisição foi bem sucedida</response>
+            <response code="400">O servidor não entendeu a requisição pois está com uma sintaxe inválida</response>
+            <response code="422">Erro de validação de conteúdo, código não localizado</response>
+            <response code="500">Erro interno na aplicação, vide campo mensagem</response>
+        </member>
+        <member name="M:API_Conta.Controllers.CRUDContaController.Put(AplicacaoDto.RequisicoesDto.contaDto.RequisicaoPutContaDto)">
+            <summary>
+            Endpoint para atualizar conta 
+            </summary>
+            <param name="dto"></param>
+            <response code="200">Busca realizada com sucesso</response>
+            <response code="400">Campos obrigatórios não informados</response>
+            <response code="401">Acesso não autenticado</response>
+            <response code="403">Acesso não autorizado</response>
+            <response code="422">Erro de válidação de conteúdo, vide campo mensagem</response>
+            <response code="500">Erro interno na aplicação, vide campo mensagem</response>
+        </member>
+    </members>
+</doc>

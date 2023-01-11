@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dominio</name>
+    </assembly>
+    <members>
+        <member name="T:Dominio.Entidade.agencia">
+            <summary>
+            Entidade que mapeia tabela agencia no banco de dados
+            </summary>
+        </member>
+        <member name="P:Dominio.Entidade.agencia.id_agencia">
+            <summary>
+            Id da agencia
+            </summary>
+            <exemplo>1</exemplo>
+        </member>
+        <member name="P:Dominio.Entidade.agencia.num_agencia">
+            <summary>
+            Número da agencia
+            </summary>
+            <exemplo>6208-0</exemplo>
+        </member>
+        <member name="T:Dominio.Entidade.cartao">
+            <summary>
+            Entidade que mapeia tabela cartao no banco de dados
+            </summary>
+        </member>
+        <member name="P:Dominio.Entidade.cartao.id_cartao">
+            <summary>
+            Id do cartao
+            </summary>
+            <exemplo>10</exemplo>
+        </member>
+        <member name="P:Dominio.Entidade.cartao.num_cartao">
+            <summary>
+            Número do cartao 
+            </summary>
+            <exemplo>20356</exemplo>
+        </member>
+        <member name="P:Dominio.Entidade.cartao.mes_ano_vencimento">
+            <summary>
+            Mês e ano de vencimento do cartão no formato AAAAMM
+            </summary>
+            <exemplo>202005</exemplo>
+        </member>
+        <member name="P:Dominio.Entidade.cartao.cvc">
+            <summary>
+            Código de segurança do cartão
+            </summary>
+            <exemplo>365</exemplo>
+        </member>
+        <member name="P:Dominio.Entidade.cartao.agencia_id_agencia">
+            <summary>
+            Id da agencia relacionada a conta
+            </summary>
+            <exemplo>2</exemplo>
+        </member>
+        <member name="P:Dominio.Entidade.cartao.conta_id_conta">
+            <summary>
+            Id da conta relacionada ao contão
+            </summary>
+            <exemplo>2</exemplo>
+        </member>
+        <member name="P:Dominio.Entidade.cartao.limite_saldo">
+            <summary>
+            Limite de saldo do cartão
+            </summary>
+            <exemplo>1000,00</exemplo>
+        </member>
+        <member name="P:Dominio.Entidade.cartao.limite_saldo_disponivel">
+            <summary>
+            Limite de saldo disponível do cartão
+            </summary>
+            <exemplo>100,00</exemplo>
+        </member>
+        <member name="P:Dominio.Entidade.cartao.situacao">
+            <summary>
+            Situação atual da conta
+            </summary>
+            <exemplo>Ativa; Inativa</exemplo>
+        </member>
+        <member name="T:Dominio.Entidade.conta">
+            <summary>
+            Entidade que mapeia tabela conta no banco de dados
+            </summary>
+        </member>
+        <member name="P:Dominio.Entidade.conta.id_conta">
+            <summary>
+            Id da conta
+            </summary>
+            <exemplo>10</exemplo>
+        </member>
+        <member name="P:Dominio.Entidade.conta.num_conta">
+            <summary>
+            Número da conta 
+            </summary>
+            <exemplo>20356</exemplo>
+        </member>
+        <member name="P:Dominio.Entidade.conta.nome_titular">
+            <summary>
+            Nome do titular da conta
+            </summary>
+            <exemplo>Lucas Dias</exemplo>
+        </member>
+        <member name="P:Dominio.Entidade.conta.tipo_conta">
+            <summary>
+            Tipo de conta 
+            </summary>
+            <exemplo>Pessoa física; Pessoal jurídica</exemplo>
+        </member>
+        <member name="P:Dominio.Entidade.conta.ultimo_acesso">
+            <summary>
+            Data do último acesso na conta 
+            </summary>
+            <exemplo>2023-01-01</exemplo>
+        </member>
+        <member name="P:Dominio.Entidade.conta.situacao">
+            <summary>
+            Situação atual da conta
+            </summary>
+            <exemplo>Ativa; Inativa</exemplo>
+        </member>
+        <member name="P:Dominio.Entidade.conta.data_criacao">
+            <summary>
+            Data da criação da conta 
+            </summary>
+            <exemplo>2023-01-01</exemplo>
+        </member>
+        <member name="P:Dominio.Entidade.conta.identificador">
+            <summary>
+            Número do cpf ou cnpj caso seja pessoa física ou jurídica
+            </summary>
+            <exemplo>101.251.452-65</exemplo>
+        </member>
+        <member name="P:Dominio.Entidade.conta.agencia_id_agencia">
+            <summary>
+            Id da agencia relacionada a conta
+            </summary>
+            <exemplo>2</exemplo>
+        </member>
+    </members>
+</doc>

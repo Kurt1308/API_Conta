@@ -20,6 +20,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -86,6 +87,12 @@ namespace API_Conta
                       new string[] { }
                     }
                   });
+                var API_Conta = Path.Combine(System.AppContext.BaseDirectory, "API_Conta.xml");
+                var xmlAplicacaoDto = Path.Combine(System.AppContext.BaseDirectory, "AplicacaoDto.xml");
+                var xmlDominio = Path.Combine(System.AppContext.BaseDirectory, "Dominio.xml");
+                c.IncludeXmlComments(API_Conta);
+                c.IncludeXmlComments(xmlAplicacaoDto);
+                c.IncludeXmlComments(xmlDominio);
             });
         }
 
