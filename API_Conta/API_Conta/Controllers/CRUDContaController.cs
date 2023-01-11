@@ -53,7 +53,7 @@ namespace API_Conta.Controllers
         [ProducesResponseType(typeof(RespostaGetContaDto), 200)]
         [ProducesResponseType(typeof(RespostaGetContaDto), 404)]
         [ProducesResponseType(typeof(RespostaGetContaDto), 500)]
-        [AllowAnonymous]
+        //[AllowAnonymous]
         [HttpGet]
         [Route("GetTodasAsContas")]
         public RespostaGetContaDto GetAllContas()

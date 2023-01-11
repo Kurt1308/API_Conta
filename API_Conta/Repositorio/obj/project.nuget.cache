@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "42zMCB1pv8Mys1eFOIN+WpFp0WmABqYrAwbbCd5K+yR4QWmPuHrOgaoJZdD5aozuHpSeQAV/8ZgdObV4YgehEw==",
+  "dgSpecHash": "LD66BrAupLrY22d6zQzWE59oQXsNbQdqeYdhd3qFuna0pIQA73vN0h1LuMBmZ5zFPazIewbW/I0X/TRgz9cegQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Repositorio\\Repositorio.csproj",
+  "projectFilePath": "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\Repositorio\\Repositorio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas.dias\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\lucas.dias\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

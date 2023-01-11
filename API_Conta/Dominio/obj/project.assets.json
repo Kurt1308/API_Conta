@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Dominio\\Dominio.csproj",
+      "projectPath": "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\Dominio\\Dominio.csproj",
       "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Dominio\\obj\\",
+      "outputPath": "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",

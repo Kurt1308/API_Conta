@@ -5888,11 +5888,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\IoC\\IoC.csproj",
+      "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\IoC\\IoC.csproj",
       "projectName": "IoC",
-      "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\IoC\\IoC.csproj",
+      "projectPath": "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\IoC\\IoC.csproj",
       "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\IoC\\obj\\",
+      "outputPath": "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\IoC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5909,14 +5909,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Aplicacao\\Aplicacao.csproj": {
-              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Aplicacao\\Aplicacao.csproj"
+            "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\Aplicacao\\Aplicacao.csproj": {
+              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\Aplicacao\\Aplicacao.csproj"
             },
-            "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Repositorio\\Repositorio.csproj": {
-              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Repositorio\\Repositorio.csproj"
+            "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\Repositorio\\Repositorio.csproj": {
+              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\Repositorio\\Repositorio.csproj"
             },
-            "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Servico\\Servico.csproj": {
-              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Servico\\Servico.csproj"
+            "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\Servico\\Servico.csproj": {
+              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\Servico\\Servico.csproj"
             }
           }
         }

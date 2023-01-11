@@ -5698,11 +5698,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\API_Conta\\API_Conta.csproj",
+      "projectUniqueName": "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\API_Conta\\API_Conta.csproj",
       "projectName": "API_Conta",
-      "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\API_Conta\\API_Conta.csproj",
+      "projectPath": "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\API_Conta\\API_Conta.csproj",
       "packagesPath": "C:\\Users\\lucas.dias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\API_Conta\\obj\\",
+      "outputPath": "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\API_Conta\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas.dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5719,17 +5719,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj": {
-              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj"
+            "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj": {
+              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\AplicacaoDto\\AplicacaoDto.csproj"
             },
-            "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Aplicacao\\Aplicacao.csproj": {
-              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Aplicacao\\Aplicacao.csproj"
+            "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\Aplicacao\\Aplicacao.csproj": {
+              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\Aplicacao\\Aplicacao.csproj"
             },
-            "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\Data\\Data.csproj"
+            "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\Data\\Data.csproj"
             },
-            "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\IoC\\IoC.csproj": {
-              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\API_CONTA1\\API_Conta\\IoC\\IoC.csproj"
+            "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\IoC\\IoC.csproj": {
+              "projectPath": "C:\\Users\\lucas.dias\\Desktop\\DDD 2022\\API_CONTA1\\API_Conta\\IoC\\IoC.csproj"
             }
           }
         }
