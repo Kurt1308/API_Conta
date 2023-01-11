@@ -10,5 +10,6 @@ namespace Core.Interface.Repositorio
     public interface IRepositorioCartao
     {
         IQueryable<cartao> buscaCartoes();
+        cartao GetCartaoById(int id);
     }
 }

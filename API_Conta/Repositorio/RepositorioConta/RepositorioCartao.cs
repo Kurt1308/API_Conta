@@ -22,5 +22,10 @@ namespace Repositorio.RepositorioConta
         {
             return _context.cartao.AsQueryable();
         }
+
+        public cartao GetCartaoById(int id)
+        {
+            return _context.cartao.Where(x => x.id_cartao == id).FirstOrDefault();
+        }
     }
 }

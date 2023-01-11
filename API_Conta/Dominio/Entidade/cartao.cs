@@ -15,7 +15,7 @@ namespace Dominio.Entidade
         /// Id do cartao
         /// </summary>
         /// <exemplo>10</exemplo>
-        public int? id_cartao { get; set; }
+        public int id_cartao { get; set; }
         /// <summary>
         /// Número do cartao 
         /// </summary>

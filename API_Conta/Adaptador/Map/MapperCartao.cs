@@ -21,5 +21,15 @@ namespace Adaptador.Map
                 cartoes = cartao
             };
         }
+
+        public RespostaGetByIdCartaoDto MapperToDtoGetCartao(HttpStatusCode codRetorno, string mensagem, cartao item)
+        {
+            return new RespostaGetByIdCartaoDto
+            {
+                codRetorno = codRetorno,
+                Mensagem = mensagem,
+                cartao = item
+            };
+        }
     }
 }

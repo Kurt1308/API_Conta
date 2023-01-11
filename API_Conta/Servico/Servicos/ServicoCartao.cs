@@ -21,5 +21,10 @@ namespace Servico.Servicos
         {
             return _repositorioCartao.buscaCartoes();
         }
+
+        public cartao GetCartaoById(int id)
+        {
+            return _repositorioCartao.GetCartaoById(id);
+        }
     }
 }

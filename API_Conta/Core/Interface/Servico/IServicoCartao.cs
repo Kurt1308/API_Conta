@@ -10,5 +10,6 @@ namespace Core.Interface.Servico
     public interface IServicoCartao
     {
         IQueryable<cartao> buscaCartoes();
+        cartao GetCartaoById(int id);
     }
 }

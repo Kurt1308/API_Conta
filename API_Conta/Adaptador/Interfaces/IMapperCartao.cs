@@ -12,5 +12,6 @@ namespace Adaptador.Interfaces
     public interface IMapperCartao
     {
         RespostaGetCartaoDto MapperToDtoCartao(HttpStatusCode codRetorno, string mensagem, List<cartao> conta = null);
+        RespostaGetByIdCartaoDto MapperToDtoGetCartao(HttpStatusCode codRetorno, string mensagem, cartao item);
     }
 }
