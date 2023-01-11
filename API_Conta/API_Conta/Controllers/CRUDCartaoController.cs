@@ -15,6 +15,28 @@ namespace API_Conta.Controllers
             _aplicacaoCartao = aplicacaoCartao;
         }
         /// <summary>
+        /// Endpoint para cadastrar cartão 
+        /// </summary>
+        /// <param name="dto"></param>
+        /// <response code="201">Cadastro realizado com sucesso</response>
+        /// <response code="400">Campos obrigatórios não informados</response>
+        /// <response code="401">Acesso não autenticado</response>
+        /// <response code="403">Acesso não autorizado</response>
+        /// <response code="422">Erro de válidação de conteúdo, vide campo mensagem</response>
+        /// <response code="500">Erro interno na aplicação, vide campo mensagem</response>
+        [ProducesResponseType(typeof(RespostaInsertCartaoDto), 201)]
+        [ProducesResponseType(typeof(RespostaInsertCartaoDto), 422)]
+        [ProducesResponseType(typeof(RespostaInsertCartaoDto), 500)]
+        [AllowAnonymous]
+        [HttpPost]
+        [Route("InserirConta")]
+        public RespostaInsertCartaoDto Insert([FromBody] RequisicaoInsertCartaoDto dto)
+        {
+            var retorno = _aplicacaoCartao.Insert(dto);
+            HttpContext.Response.StatusCode = (int)retorno.codRetorno;
+            return retorno;
+        }
+        /// <summary>
         /// Endpoint que retorna todos os cartões cadastrados
         /// </summary>
         /// <response code="200">Busca realizada com sucesso</response>

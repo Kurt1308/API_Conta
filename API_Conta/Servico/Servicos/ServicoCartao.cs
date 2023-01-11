@@ -26,5 +26,11 @@ namespace Servico.Servicos
         {
             return _repositorioCartao.GetCartaoById(id);
         }
+
+        public cartao insereCartao(long num_cartao, int cvc, int? agencia_id_agencia, int? conta_id_conta)
+        {
+            return _repositorioCartao.insereCartao(num_cartao, cvc, agencia_id_agencia, conta_id_conta);
+        }
+        
     }
 }

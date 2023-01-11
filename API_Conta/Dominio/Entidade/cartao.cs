@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace Dominio.Entidade
 {
@@ -15,7 +13,8 @@ namespace Dominio.Entidade
         /// Id do cartao
         /// </summary>
         /// <exemplo>10</exemplo>
-        public int id_cartao { get; set; }
+        [Key]
+        public int? id_cartao { get; set; }
         /// <summary>
         /// Número do cartao 
         /// </summary>

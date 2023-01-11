@@ -9,6 +9,7 @@ namespace Core.Interface.Servico
 {
     public interface IServicoCartao
     {
+        cartao insereCartao(long num_cartao, int cvc, int? agencia_id_agencia, int? conta_id_conta);
         IQueryable<cartao> buscaCartoes();
         cartao GetCartaoById(int id);
     }

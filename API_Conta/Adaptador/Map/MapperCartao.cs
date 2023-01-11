@@ -31,5 +31,15 @@ namespace Adaptador.Map
                 cartao = item
             };
         }
+
+        public RespostaInsertCartaoDto MapperToDtoInsert(HttpStatusCode codRetorno, string mensagem, cartao cartao = null)
+        {
+            return new RespostaInsertCartaoDto()
+            {
+                codRetorno = codRetorno,
+                Mensagem = mensagem,
+                cartao = cartao
+            };
+        }
     }
 }

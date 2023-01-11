@@ -16,6 +16,7 @@ namespace Aplicacao.Servico
     public class AplicacaoCartao : IAplicacaoCartao
     {
         private const string semDados = "NÃO POSSUI DADOS";
+        private const string erroInserir = "NÃO FOI POSSÍVEL CADASTRAR ESSE CARTÃO";
         private readonly IServicoCartao _servicoCartao;
         private readonly IMapperCartao _mapperCartao;
         public AplicacaoCartao(IServicoCartao servicoCartao, IMapperCartao mapperCartao)
@@ -54,6 +55,23 @@ namespace Aplicacao.Servico
             catch (Exception Erro)
             {
                 return _mapperCartao.MapperToDtoGetCartao(HttpStatusCode.InternalServerError, Erro.ToString(), null);
+            }
+        }
+
+        public RespostaInsertCartaoDto Insert(RequisicaoInsertCartaoDto obj)
+        {
+            string mensagem = "";
+
+            if (!mensagem.Equals(string.Empty))
+                return _mapperCartao.MapperToDtoInsert(HttpStatusCode.UnprocessableEntity, mensagem);
+            try
+            {
+                cartao retornoCartao = _servicoCartao.insereCartao(obj.num_cartao, obj.cvc, obj.agencia_id_agencia, obj.conta_id_conta);
+                return _mapperCartao.MapperToDtoInsert(retornoCartao != null ? HttpStatusCode.Created : HttpStatusCode.InternalServerError, retornoCartao != null ? mensagem : erroInserir, retornoCartao);
+            }
+            catch (Exception erro)
+            {
+                return _mapperCartao.MapperToDtoInsert(HttpStatusCode.InternalServerError, erro.Message);
             }
         }
     }

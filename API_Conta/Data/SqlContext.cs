@@ -24,12 +24,12 @@ namespace Data
             //        //eb.HasNoKey();
             //        eb.ToView("conta");
             //    });
-            modelBuilder
-                .Entity<cartao>(eb =>
-                {
-                    eb.HasNoKey();
-                    eb.ToView("cartao");
-                });
+            //modelBuilder
+            //    .Entity<cartao>(eb =>
+            //    {
+            //        eb.HasNoKey();
+            //        eb.ToView("cartao");
+            //    });
         }
         public SqlContext(DbContextOptions<SqlContext> options) : base(options) { }
         public DbSet<agencia> agencia { get; set; }
