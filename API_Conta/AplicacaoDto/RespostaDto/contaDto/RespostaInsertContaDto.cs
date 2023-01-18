@@ -2,6 +2,9 @@
 
 namespace AplicacaoDto.RespostaDto.InsertContaDto
 {
+    /// <summary>
+    /// Classe de resposta relacionada a conta 
+    /// </summary>
     public class RespostaInsertContaDto : RespostaDto
     {
         /// <summary>

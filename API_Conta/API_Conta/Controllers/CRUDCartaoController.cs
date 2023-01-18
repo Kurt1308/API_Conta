@@ -27,7 +27,6 @@ namespace API_Conta.Controllers
         [ProducesResponseType(typeof(RespostaPutCartaoDto), 200)]
         [ProducesResponseType(typeof(RespostaPutCartaoDto), 422)]
         [ProducesResponseType(typeof(RespostaPutCartaoDto), 500)]
-        [AllowAnonymous]
         [HttpPut("AtualizaCartao")]
         public RespostaPutCartaoDto Put([FromBody] RequisicaoPutCartaoDto dto)
         {
@@ -48,7 +47,6 @@ namespace API_Conta.Controllers
         [ProducesResponseType(typeof(RespostaInsertCartaoDto), 201)]
         [ProducesResponseType(typeof(RespostaInsertCartaoDto), 422)]
         [ProducesResponseType(typeof(RespostaInsertCartaoDto), 500)]
-        [AllowAnonymous]
         [HttpPost]
         [Route("InserirCartao")]
         public RespostaInsertCartaoDto Insert([FromBody] RequisicaoInsertCartaoDto dto)
@@ -69,7 +67,6 @@ namespace API_Conta.Controllers
         [ProducesResponseType(typeof(RespostaGetCartaoDto), 200)]
         [ProducesResponseType(typeof(RespostaGetCartaoDto), 404)]
         [ProducesResponseType(typeof(RespostaGetCartaoDto), 500)]
-        [AllowAnonymous]
         [HttpGet]
         [Route("GetTodosOsCartoes")]
         public RespostaGetCartaoDto GetAllContas()
@@ -89,7 +86,6 @@ namespace API_Conta.Controllers
         [ProducesResponseType(typeof(RespostaGetByIdCartaoDto), 400)]
         [ProducesResponseType(typeof(RespostaGetByIdCartaoDto), 422)]
         [ProducesResponseType(typeof(RespostaGetByIdCartaoDto), 500)]
-        [AllowAnonymous]
         [HttpPost]
         [Route("GetCartaoPorId")]
         public RespostaGetByIdCartaoDto GetCartaoById([FromBody] RequisicaoGetByIdCartaoDto dto)

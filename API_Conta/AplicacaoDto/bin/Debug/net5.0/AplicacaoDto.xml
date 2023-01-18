@@ -197,9 +197,19 @@
             Resposta ao inserir, devolve um objeto do tipo conta
             </summary>
         </member>
+        <member name="T:AplicacaoDto.RespostaDto.InsertContaDto.RespostaInsertContaDto">
+            <summary>
+            Classe de resposta relacionada a conta 
+            </summary>
+        </member>
         <member name="P:AplicacaoDto.RespostaDto.InsertContaDto.RespostaInsertContaDto.conta">
             <summary>
             Resposta ao inserir, devolve um objeto do tipo conta
+            </summary>
+        </member>
+        <member name="T:AplicacaoDto.RespostaDto.DtoCartao.RespostaGetByIdCartaoDto">
+            <summary>
+            Resposta com um cartão filtrado por id
             </summary>
         </member>
         <member name="P:AplicacaoDto.RespostaDto.DtoCartao.RespostaGetByIdCartaoDto.cartao">
